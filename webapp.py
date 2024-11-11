@@ -6,7 +6,6 @@ import pandas as pd
 import plotly.graph_objects as go
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-import time
 
 
 def label(x):
