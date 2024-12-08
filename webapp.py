@@ -127,7 +127,7 @@ def main():
                 x=[-sc_val_1 * eigenvectors[0][0], sc_val_1 * eigenvectors[0][0]],
                 y=[-sc_val_1 * eigenvectors[0][1], sc_val_1 * eigenvectors[0][1]],
                 z=[-sc_val_1 * eigenvectors[0][2], sc_val_1 * eigenvectors[0][2]],
-                line=dict(color="red", width=1),
+                line=dict(color="red", width=3),
                 mode="lines",
                 name="PC 1",
             )
@@ -138,7 +138,7 @@ def main():
                 x=[-sc_val_2 * eigenvectors[1][0], sc_val_2 * eigenvectors[1][0]],
                 y=[-sc_val_2 * eigenvectors[1][1], sc_val_2 * eigenvectors[1][1]],
                 z=[-sc_val_2 * eigenvectors[1][2], sc_val_2 * eigenvectors[1][2]],
-                line=dict(color="green", width=1),
+                line=dict(color="yellow", width=3),
                 mode="lines",
                 name="PC 2",
             )
